@@ -25,3 +25,4 @@ for(let i=0;i<code.length;i++){
 		}
 	})
 }
+code[0].focus();
