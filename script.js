@@ -12,15 +12,15 @@ for(let i=0;i<code.length;i++){
 	})
 
 	code[i].addEventListener('keydown', function(e){
-		if(e.key=='Backspace'){
-			if(this.value.length===''){
+		if(e.key==='Backspace'){
+			if(this.value===''){
 				if(i>0){
 					code[i-1].focus();
 					code[i-1].value="";
 				}
 			}
 			else{
-				this.value==='';
+				this.value='';
 			}
 		}
 	})
